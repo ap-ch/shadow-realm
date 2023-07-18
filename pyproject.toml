@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "shadow-realm"
+version = "0.1.0"
+description = "Send anything to the Shadow Realm"
+authors = ["ap-ch <alejandro.pchirinos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^10.0.0"
+fastapi = {extras = ["all"], version = "^0.100.0"}
+gunicorn = "^21.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
